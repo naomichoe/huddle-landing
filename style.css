@@ -65,7 +65,8 @@ i:hover {
 
 /*Start layout changes here*/
 header {
-    padding: 30px 0 30px 60px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .container {
@@ -97,13 +98,48 @@ i {
     padding: 0 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        max-width: 100%;
+    }
 
+    .left {
+        flex: 50%;
+    }
+    
+    .right {
+        flex: 50%;
+    }
+
+    div > img {
+        max-width: 375px;
+    }
+    
+    body {
+        text-align: center;
+    }
+
+    header {
+        margin: 30px 0 0 30px;
+    }
+
+    header > img {
+        margin: 0;
+    }
+
+    button {
+        width: 50%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 }
 
