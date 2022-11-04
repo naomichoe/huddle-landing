@@ -42,13 +42,16 @@ p {
 }
 
 button {
-    font-family: inherit;
+    font-family: 'Poppins';
     color: hsl(257, 40%, 49%);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 50px;
     border: none;
     margin-top: 20px;
     width: 40%;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); 
 }
 
 button:hover {
