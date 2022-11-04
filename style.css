@@ -1,0 +1,28 @@
+/*Given style from FM
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%)
+### Headings
+- Family: [Poppins]
+- Weights: 400, 600
+### Body
+- Family: [Open Sans]
+- Weights: 400
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: none;
+}
+
+
+
+/*Given style from FM*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
