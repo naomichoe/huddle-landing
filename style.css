@@ -23,15 +23,22 @@ body {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.top {
+    margin-top: 40px;
 }
 
 p {
     color: hsl(256, 79%, 89%);
+    margin-top: 40px;
 }
 
 button {
@@ -40,6 +47,8 @@ button {
     cursor: pointer;
     border-radius: 10px;
     border: none;
+    margin-top: 20px;
+    width: 40%;
 }
 
 button:hover {
@@ -53,13 +62,23 @@ i:hover {
 
 /*Start layout changes here*/
 header {
-    padding: 30px 0 30px 30px;
+    padding: 30px 0 30px 60px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 60px;
+}
+
+.left {
+    flex: 1 1 60%;
+}
+
+.right {
+    flex: 0 0 40%;
+    align-self: flex-start;
 }
 
 nav {
@@ -67,7 +86,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px;
+    margin-right: 60px;
 }
 
 i {
