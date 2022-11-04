@@ -47,7 +47,7 @@ button {
     cursor: pointer;
     border-radius: 50px;
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 40%;
     padding: 20px 0;
     font-size: 1.2rem;
@@ -76,12 +76,13 @@ header {
 }
 
 .left {
-    flex: 1 1 60%;
+    flex: 1 1 55%;
 }
 
 .right {
-    flex: 0 0 40%;
+    flex: 0 0 45%;
     align-self: flex-start;
+    padding-left: 20px;
 }
 
 nav {
@@ -94,6 +95,16 @@ nav {
 
 i {
     padding: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 /*Given style from FM for the footer*/
