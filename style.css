@@ -30,11 +30,14 @@ h1 {
     font-weight: 600;
 }
 
+p {
+    color: hsl(256, 79%, 89%);
+}
+
 button {
     font-family: inherit;
     color: hsl(257, 40%, 49%);
     cursor: pointer;
-    width: 10%;
     border-radius: 10px;
     border: none;
 }
@@ -49,7 +52,27 @@ i:hover {
 }
 
 /*Start layout changes here*/
+header {
+    padding: 30px 0 30px 30px;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+
+i {
+    padding: 0 5px;
+}
 
 /*Given style from FM for the footer*/
 .attribution { font-size: 11px; text-align: center; }
