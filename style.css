@@ -102,6 +102,7 @@ i {
 @media screen and (min-width: 375px) and (max-width: 910px) {
     body {
         background-image: url(images/bg-mobile.svg);
+        background-repeat: repeat-x;
     }
 
     .container {
