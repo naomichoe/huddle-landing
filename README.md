@@ -35,11 +35,12 @@ Desktop version for 1440px
 ### Links
 
 - Solution URL: (https://github.com/naomichoe/huddle-landing.git)
-<!-- - Live Site URL: (https://your-live-site-url.com) ADD live page --> 
+- Live Site URL: (https://naomichoe.github.io/huddle-landing/)
 
 ## My process
 
 Started with basic HTML and CSS setup. Then practiced flexbox layouts. This was slightly more challenging than the Product Preview Card project. First made sure the desktop view was set at a 1440 resolution. Then worked on the mobile layout for min-width of 375px. The layout was not porportional in between the two so added a second media query.
+
 ### Built with
 
 - Semantic HTML5 markup
